@@ -1,0 +1,22 @@
+﻿<Window x:Class="LabWork_8_1.ViewFiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWork_8_1"
+        mc:Ignorable="d"
+        Title="ViewFiz" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" Name="dataFiz">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Код поставщика" Width="*" Binding="{Binding КодПоставщика}"/>
+                    <DataGridTextColumn Header="Фамилия" Width="2*" Binding="{Binding Фамилия}"/>
+                    <DataGridTextColumn Header="Имя" Width="2*" Binding="{Binding Имя}"/>
+                    <DataGridTextColumn Header="Отчество" Width="2*" Binding="{Binding Отчество}"/>
+                    <DataGridTextColumn Header="Номер свидетельства" Width="2*" Binding="{Binding НомерСвидетельства}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+    </Grid>
+</Window>

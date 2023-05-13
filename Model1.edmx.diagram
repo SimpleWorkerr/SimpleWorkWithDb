@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3a35ce9f395a4f0c8065c215fc174694" Name="Diagram1">
+        <EntityTypeShape EntityType="TestWorkDBModel.Договоры" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestWorkDBModel.Поставлено" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestWorkDBModel.Поставщики" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestWorkDBModel.ФизическиеЛица" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestWorkDBModel.ЮридическиеЛица" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="TestWorkDBModel.FK__Договоры__Коммен__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="TestWorkDBModel.FK__Поставлено__Цена__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="TestWorkDBModel.FK__Физически__Номер__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="TestWorkDBModel.FK__Юридическ__Номер__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

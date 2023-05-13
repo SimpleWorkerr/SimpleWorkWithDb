@@ -1,0 +1,51 @@
+﻿<Window x:Class="LabWork_8_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWork_8_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top">
+            <MenuItem Header="Просмотр">
+                <MenuItem Header="Поставщик" Click="OpenViewPostavshiki"/>
+                <MenuItem Header="Договоры" Click="OpenViewDogovor"/>
+                <MenuItem Header="Физические лица" Click="OpenViewFiz"/>
+                <MenuItem Header="Юридические лица" Click="OpenViewUyer"/>
+                <MenuItem Header="Поставлено" Click="OpenViewPostavleno"/>
+                <Image Source="C:\Users\SuperUser\Desktop\LabWork\SqlScrkipts\LabWork_8_1\Images\Cats_View.jpg" Width="400" Height="400"></Image>
+            </MenuItem>
+            <MenuItem Header="Редактирование" >
+                <MenuItem Header="Поставщик" Click="OpenEditPostavshiki"/>
+                <MenuItem Header="Договоры" Click="OpenEditDogovor"/>
+                <MenuItem Header="Физические лица" Click="OpenEditFiz"/>
+                <MenuItem Header="Юридические лица" Click="OpenEditUyer"/>
+                <MenuItem Header="Поставлено" Click="OpenEditPostaveno"/>
+                <Image Source="C:\Users\SuperUser\Desktop\LabWork\SqlScrkipts\LabWork_8_1\Images\Cats_Edit.jpg" Width="400" Height="400"></Image>
+            </MenuItem>
+            <MenuItem Header="Добавление">
+                <MenuItem Header="Поставщик" Click="OpenAddPostavhiki"/>
+                <MenuItem Header="Договоры" Click="OpenAddDogovor"/>
+                <MenuItem Header="Физические лица" Click="OpenAddFiz"/>
+                <MenuItem Header="Юридические лица" Click="OpenAddUyer"/>
+                <MenuItem Header="Поставлено" Click="OpenAddPostavleno"/>
+                <Image Source="C:\Users\SuperUser\Desktop\LabWork\SqlScrkipts\LabWork_8_1\Images\Cats_Add_2.jpg" Width="400" Height="400"></Image>
+            </MenuItem>
+            <MenuItem Header="Удаление">
+                <MenuItem Header="Поставщик" Click="OpenDeletePostavshiki"/>
+                <MenuItem Header="Договоры" Click="OpenDeleteDogovor"/>
+                <MenuItem Header="Физические лица" Click="OpenDeleteFiz"/>
+                <MenuItem Header="Юридические лица" Click="OpenDeleteUyer"/>
+                <MenuItem Header="Поставлено" Click="OpenDeletePostavleno"/>
+                <Image Source="C:\Users\SuperUser\Desktop\LabWork\SqlScrkipts\LabWork_8_1\Images\Cats_Delete.jpg" Width="400" Height="400"></Image>
+            </MenuItem>
+            <MenuItem Header="Скрипты">
+                <MenuItem Name="Query__1" Header="Скрипт 1" Click="OpenQuery_1"/>
+                <MenuItem Name="Query__2" Header="Скрипт 2" Click="OpenQuery_2"/>
+                <MenuItem Name="Query__3" Header="Скрипт 3" Click="OpenQuery_3"/>
+                <Image Source="C:\Users\SuperUser\Desktop\LabWork\SqlScrkipts\LabWork_8_1\Images\Cats_sctips.jpg" Width="400" Height="400"></Image>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
